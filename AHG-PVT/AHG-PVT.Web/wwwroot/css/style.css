@@ -1043,7 +1043,7 @@ h3 {
 
 /* line 156, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li a {
-        color: #fff;
+        color: #000;
         font-size: 15px;
         text-transform: capitalize;
         font-weight: 500;
@@ -1181,19 +1181,19 @@ h3 {
 
 /* line 254, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky {
-  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  width: 100%;
-  top: -70px;
-  left: 0;
-  right: 0;
-  z-index: 990;
-  transform: translateY(70px);
-  transition: transform 500ms ease, background 500ms ease;
-  -webkit-transition: transform 500ms ease, background 500ms ease;
-  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  background: rgba(255, 255, 255, 0.96);
-  background: #2C2C2C;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    z-index: 990;
+    transform: translateY(70px);
+    transition: transform 500ms ease, background 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    /*background: rgba(255, 255, 255, 0.96);*/
+    background: #ffffff;
 }
 
 @media (max-width: 767px) {
@@ -3861,19 +3861,7 @@ h3 {
   transition: 0.3s;
   margin-bottom: 30px;
 }
-.profile_details {
-    display: inline-block;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 2px #ccc;
-    width: auto;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-   
-}
+
 
 /* line 13, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_service.scss */
 .service_area .single_service .service_icon {
