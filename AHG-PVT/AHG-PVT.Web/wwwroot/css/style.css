@@ -1313,6 +1313,83 @@ h3 {
   justify-content: flex-end;
 }
 
+
+
+
+
+/* Services Css */
+/*line-147*, ../../agrecultur-farm/agro-farm-slide*/
+.agro-farm-top-slider-1 {
+    background-image: url(../img/service/agroFarmSlider-1.jpg)
+}
+.agro-farm-top-slider-2 {
+    background-image: url(../img/service/agroFarmSlider-2.jpeg)
+}
+.agro-farm-top-slider-3 {
+    background-image: url(../img/service/agroFarmSlider-3.jpeg)
+}
+.agro-farm-top-slider-4 {
+    background-image: url(../img/service/agroFarmSlider-4.jpeg)
+}
+/* line 227 service promo section*/
+.servicePromoSection {
+    padding: 0 0 50px 0;
+    background-size: cover;
+    background-position: center center;
+}
+.promoSwipTop {
+    position: relative;
+    margin-top: -50px;
+    z-index: 1;
+    padding:0px;
+    background-color:white;
+    border-radius: 5px;
+}
+.promoSwipTopArticel {
+    text-align: center;
+    background: url(../img/);
+    border: 10px solid #f3f7f8;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 75px 185px;
+    border-radius: 5px;
+}
+.promoSwipTopTitle {
+    letter-spacing: .05em;
+    text-transform: none;
+    font-family: "Kalam", cursive;
+    color: #629bd0;
+    text-align:center;
+}
+/*line 232*/
+.promoSwipTopText {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+
+
+/*Service Phase:2) about agro farm division css*/
+.abutCard01 {
+    
+    visibility: visible;
+    animation-delay: 0.1s;
+    animation-name: slideInUp;
+}
+.aboutUscardImg1 {
+    width: 230px;
+    transform: none;
+    will-change: transform;
+    transition: all .25s ease;
+}
+
+
+
+
+
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_bg_1 {
   background-image: url(../img/banner/banner_3.jpg);
