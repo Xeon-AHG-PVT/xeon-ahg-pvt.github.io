@@ -1043,7 +1043,7 @@ h3 {
 
 /* line 156, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li a {
-        color: #000;
+        color: #bf975d;
         font-size: 15px;
         text-transform: capitalize;
         font-weight: 500;
@@ -1087,11 +1087,12 @@ h3 {
   }
 }
 
+
 /* line 184, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a::before {
     position: absolute;
     content: "";
-    background: #78bf41;
+    background: #fd8e5e;
     width: 100%;
     height: 3px;
     bottom: -33px;
@@ -1118,20 +1119,20 @@ h3 {
 
 /* line 210, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu {
-  position: absolute;
-  left: 0;
-  top: 160%;
-  background: #fff;
-  width: 380px;
-  z-index: 2;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
-  opacity: 0;
-  visibility: hidden;
-  text-align: left;
-  -webkit-transition: 0.6s;
-  -moz-transition: 0.6s;
-  -o-transition: 0.6s;
-  transition: 0.6s;
+    position: absolute;
+    left: 0;
+    top: 160%;
+    background: #e9ecef;
+    width: 380px;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
+    opacity: 0;
+    visibility: hidden;
+    text-align: left;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
 }
 
 /* line 222, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
