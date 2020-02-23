@@ -316,9 +316,9 @@ h3 {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.1s ease 0s;
+  -o-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
   width: 50px;
   color: #707070;
   background-color: transparent;
@@ -1342,7 +1342,7 @@ h3 {
 }
 .promoSwipTop {
     position: relative;
-    margin-top: -50px;
+    margin-top: -45px;
     z-index: 1;
     padding:0px;
     background-color:white;
@@ -1375,7 +1375,7 @@ h3 {
 
 
 
-/*Service Phase:2) about agro farm division css*/
+/*Service Phase:2) About agro farm division css*/
 /*line 260*/
 
 /*line 254*/
@@ -1463,11 +1463,11 @@ h3 {
     margin-bottom: 30px;
     transition: width 2s, height 2s, transform 2s;
 }
-    .cardAnimation :hover {
+.cardAnimation :hover {
         width: 300px;
         height: 300px;
         transform: rotate(180deg);
-    }
+}
 
 .aboutUscardImg1 {
     width: 230px;
@@ -1475,6 +1475,50 @@ h3 {
     will-change: transform;
     transition: all .1s ease;
 }
+
+
+
+
+/*### Service ***Real estate and constraction */
+/* line 147 */
+.realState-top-slider-1 {
+    background-image: url(../img/service/realStateConstruction01.jpg)
+}
+.realState-top-slider-2 {
+    background-image: url(../img/service/realStateConstruction02.jpg)
+}
+.realState-top-slider-3 {
+    background-image: url(../img/service/realStateConstruction03.jpg)
+}
+.realState-top-slider-4 {
+    background-image: url(../img/service/realStateConstruction04.jpeg)
+}
+
+.realState-top-slider-5 {
+    background-image: url(../img/service/realStateConstruction05.jpg)
+}
+
+/*### Service ***Real estate and constraction */
+/* line 147 */
+.supply-material-equipment-slide-1 {
+    background-image: url(../img/service/supplyMateria-slid-01.jpeg)
+}
+.supply-material-equipment-slide-2 {
+    background-image: url(../img/service/supplyMateria-slid-02.jpeg)
+}
+.supply-material-equipment-slide-3 {
+    background-image: url(../img/service/supplyMateria-slid-03.jpeg)
+}
+.supply-material-equipment-slide-4 {
+    background-image: url(../img/service/supplyMateria-slid-04.jpeg)
+}
+.supply-material-equipment-slide-5 {
+    background-image: url(../img/service/supplyMateria-slid-05.jpeg)
+}
+
+
+
+
 
 
 
