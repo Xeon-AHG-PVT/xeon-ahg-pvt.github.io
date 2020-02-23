@@ -3239,11 +3239,11 @@ h3 {
 
 /* line 31, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .footer_logo {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 @media (max-width: 767px) {
@@ -3313,7 +3313,7 @@ h3 {
 .footer .footer_top .footer_widget ul li {
   color: #919191;
   font-size: 13px;
-  line-height: 42px;
+  line-height: 34px;
 }
 
 /* line 90, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
