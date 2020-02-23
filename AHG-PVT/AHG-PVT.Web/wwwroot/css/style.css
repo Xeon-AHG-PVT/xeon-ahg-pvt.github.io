@@ -1316,6 +1316,170 @@ h3 {
   justify-content: flex-end;
 }
 
+
+
+
+
+/* Services Css */
+/*line-147*, ../../agrecultur-farm/agro-farm-slide*/
+.agro-farm-top-slider-1 {
+    background-image: url(../img/service/agroFarmSlider-1.jpg)
+}
+.agro-farm-top-slider-2 {
+    background-image: url(../img/service/agroFarmSlider-2.jpeg)
+}
+.agro-farm-top-slider-3 {
+    background-image: url(../img/service/agroFarmSlider-3.jpeg)
+}
+.agro-farm-top-slider-4 {
+    background-image: url(../img/service/agroFarmSlider-4.jpeg)
+}
+/* line 227 service promo section*/
+.servicePromoSection {
+    padding: 0 0 50px 0;
+    background-size: cover;
+    background-position: center center;
+}
+.promoSwipTop {
+    position: relative;
+    margin-top: -50px;
+    z-index: 1;
+    padding:0px;
+    background-color:white;
+    border-radius: 5px;
+}
+.promoSwipTopArticel {
+    text-align: center;
+    background: url(../img/);
+    border: 10px solid #f3f7f8;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 75px 185px;
+    border-radius: 5px;
+}
+.promoSwipTopTitle {
+    letter-spacing: .05em;
+    text-transform: none;
+    font-family: "Kalam", cursive;
+    color: #629bd0;
+    text-align:center;
+}
+/*line 232*/
+.promoSwipTopText {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+
+
+/*Service Phase:2) about agro farm division css*/
+/*line 260*/
+
+/*line 254*/
+
+.aboutAgroTitle {
+    font-size: 46px;
+    font-weight: 300;
+    line-height: 76px;
+    color: #001D38;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 15px;
+    
+}
+
+.slideDown {
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;
+    animation-duration: 5s;
+    -webkit-animation-duration: 5s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    visibility: visible !important;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    50% {
+        transform: translateY(8%);
+    }
+
+    65% {
+        transform: translateY(-4%);
+    }
+
+    80% {
+        transform: translateY(4%);
+    }
+
+    95% {
+        transform: translateY(-2%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slideDown {
+    0% {
+        -webkit-transform: translateY(-100%);
+    }
+
+    50% {
+        -webkit-transform: translateY(8%);
+    }
+
+    65% {
+        -webkit-transform: translateY(-4%);
+    }
+
+    80% {
+        -webkit-transform: translateY(4%);
+    }
+
+    95% {
+        -webkit-transform: translateY(-2%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
+
+.cardAnimation {
+    padding: 30px;
+    border: 1px solid #E8E8E8;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.4s;
+    margin-bottom: 30px;
+    transition: width 2s, height 2s, transform 2s;
+}
+    .cardAnimation :hover {
+        width: 300px;
+        height: 300px;
+        transform: rotate(180deg);
+    }
+
+.aboutUscardImg1 {
+    width: 230px;
+    transform: none;
+    will-change: transform;
+    transition: all .1s ease;
+}
+
+
+
+
+
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_bg_1 {
   background-image: url(../img/banner/banner.png);
