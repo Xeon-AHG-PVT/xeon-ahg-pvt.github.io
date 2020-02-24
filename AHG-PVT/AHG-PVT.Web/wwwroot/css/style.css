@@ -1516,6 +1516,76 @@ h3 {
     background-image: url(../img/service/supplyMateria-slid-05.jpeg)
 }
 
+/*## Ict -Division*/
+/*line*/
+.ict-division-slide-01 {
+    background-image: url(../img/service/ict-slide-01.jpeg)
+}
+.ict-division-slide-02 {
+    background-image: url(../img/service/ict-slide-02.jpg)
+}
+.ict-division-slide-03 {
+    background-image: url(../img/service/ict-slide-03.jpeg)
+}
+.ict-division-slide-04 {
+    background-image: url(../img/service/ict-slide-04.jpeg)
+}
+.ict-division-slide-05 {
+    background-image: url(../img/service/ict-slide-05.jpg)
+}
+.ict-division-slide-06 {
+    background-image: url(../img/service/ict-slide-06.jpg)
+}
+
+
+.story-zoom {
+    display: block;
+    overflow: hidden;
+}
+
+.story-zoom-img {
+    width: 100%;
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+}
+
+    .story-zoom:hover img {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+
+/*End Ict Division***/
+
+
+
+/*# Travel and tourisom #*/
+/* line 143**/
+.travel-tourisom-slide-01 {
+    background-image: url(../img/service/travel-tourisom-slid-01.jpg)
+}
+.travel-tourisom-slide-02 {
+    background-image: url(../img/service/travel-tourisom-slid-02.jpg)
+}
+.travel-tourisom-slide-03 {
+    background-image: url(../img/service/travel-tourisom-slid-03.jpg)
+}
+.travel-tourisom-slide-04 {
+    background-image: url(../img/service/travel-tourisom-slid-04.jpg)
+}
+.travel-tourisom-slide-05 {
+    background-image: url(../img/service/travel-tourisom-slid-05.jpg)
+}
+.travel-tourisom-slide-06 {
+    background-image: url(../img/service/travel-tourisom-slid-06.jpg)
+}
+
+
 
 
 
