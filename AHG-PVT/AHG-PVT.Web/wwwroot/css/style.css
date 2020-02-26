@@ -911,23 +911,29 @@ h3 {
     width: 70px;
   }
 }
-
+.header-logo{
+    font-size:16px;
+}
+.header-logo img{
+    width:50px;
+    
+}
 /* line 71, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -webkit-justify-content: flex-end;
-  -moz-justify-content: flex-end;
-  -ms-justify-content: flex-end;
-  justify-content: flex-end;
-  -ms-flex-pack: flex-end;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    -ms-justify-content: flex-end;
+    justify-content: flex-end;
+    -ms-flex-pack: flex-end;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1089,8 +1095,10 @@ h3 {
     display: none !important;
   }
 }
-
-
+.profile_logo img{
+    height:200px;
+    width:200px;
+}
 /* line 184, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a::before {
     position: absolute;
@@ -1431,6 +1439,34 @@ h3 {
     box-sizing:border-box;
 }
 
+.consultant.zoom.img {
+    transition: 0.3s;
+    border-radius: 16px;
+}
+
+.contact-about-input-title {
+    color: white;
+    font-size: 46px;
+}
+.contact-about-form{
+    padding-top:0px;
+}
+.contact-about-form::before{
+    box-sizing:border-box
+}
+.contact-about-input-fild {
+    border-radius: 10px;
+    padding: 5px 10px;
+   
+}
+
+.contact-about-input-taxtarea {
+    height: 40px !important;
+    resize: none;
+    border-radius: 10px;
+    padding:10px;
+    margin-top
+}
 
 
 /*Service Phase:2) About agro farm division css*/
@@ -1596,6 +1632,48 @@ h3 {
     background-image: url(../img/service/realStateConstruction05.jpg)
 }
 
+/*## Sports Surfece and Supply*/
+.sports-supply-construction-01 {
+    background-image: url(../img/service/sports-slider-01.jpg)
+}
+.sports-supply-construction-02 {
+    background-image: url(../img/service/sports-slider-02.jpg)
+}
+.sports-supply-construction-03 {
+    background-image: url(../img/service/sports-slider-03.jpg)
+}
+.sports-supply-construction-04 {
+    background-image: url(../img/service/sports-slider-04.jpg)
+}
+.sports-supply-construction-05 {
+    background-image: url(../img/service/sports-slider-05.jpg)
+}
+.sports-supply-construction-06 {
+    background-image: url(../img/service/sports-slider-06.jpg)
+}
+/*## Defense and military */
+.defense-top-slider-01 {
+    background-image: url(../img/service/military-equipent-supply-01.jpg)
+}
+.defense-top-slider-02 {
+    background-image: url(../img/service/military-equipent-supply-02.jpg)
+}
+.defense-top-slider-03 {
+    background-image: url(../img/service/military-equipent-supply-03.jpeg)
+}
+.defense-top-slider-04 {
+    background-image: url(../img/service/military-equipent-supply-04.jpg)
+}
+.defense-top-slider-05 {
+    background-image: url(../img/service/military-equipent-supply-05.jpg)
+}
+.defense-top-slider-06 {
+    background-image: url(../img/service/military-equipent-supply-06.jpg)
+}
+.defense-top-slider-07 {
+    background-image: url(../img/service/military-equipent-supply-07.jpeg)
+}
+
 /*### Service ***Real estate and constraction */
 /* line 147 */
 .supply-material-equipment-slide-1 {
@@ -1740,14 +1818,15 @@ h3 {
 
 /* line 17, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
-  font-family: "Poppins", sans-serif;
-  font-size: 60px;
-  text-transform: capitalize;
-  letter-spacing: 2px;
-  font-weight: 300;
-  line-height: 76px;
-  margin-bottom: 15px;
-  color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 76px;
+    margin-bottom: 15px;
+    color: #fff;
+    
 }
 
 /* line 26, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
@@ -1876,8 +1955,21 @@ h3 {
   width: 100%;
 }
 
-.directort_thumb img{
-    padding:20px;
+.directort_thumb img {
+    padding: 10px;
+    height: 305px;
+    border-radius: 25px;
+}
+.company_brief{
+    font-size:18px;
+}
+
+.partners{
+    margin-bottom:30px;
+}
+.partners p {
+    font-size:15px;
+    color:black;
 }
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
 .counter_area {
@@ -1914,7 +2006,7 @@ h3 {
 
 /* line 27, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
 .counter_bg_1 {
-  background-image: url(../img/about/counter.png);
+  background-image: url(../img/about/about1.jpg);
 }
 
 /* line 31, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
@@ -2296,8 +2388,9 @@ h3 {
 
 /* line 47, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
 .testimonial_area .owl-carousel .owl-item img {
-  display: inline-block;
-  width: auto;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
 }
 
 /* line 51, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
@@ -2651,8 +2744,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_case_details.scss */
 .case_details_area {
-  padding-top: 100px;
-  margin-top: 138px;
+  padding-top: 50px;
+  margin-top: 50px;
 }
 
 @media (max-width: 767px) {
@@ -3646,7 +3739,7 @@ h3 {
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
-  margin-bottom: 60px;
+  margin-bottom: 38px;
 }
 
 @media (max-width: 767px) {
@@ -3860,9 +3953,14 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam.png);
+    background-image: url(../img/banner/bradcam.png);
 }
-
+.bradcam_bg_2 {
+  background-image: url(../img/banner/company.png);
+}
+.bradcam_bg_3 {
+    background-image: url(../img/banner/associate-partner.png);
+}
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;
@@ -3881,7 +3979,7 @@ h3 {
   width: 100%;
   height: 100%;
   background: #001D38;
-  opacity: .4;
+  opacity: .5;
   z-index: -1;
   content: '';
 }
