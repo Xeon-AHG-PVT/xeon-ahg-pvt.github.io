@@ -1431,6 +1431,34 @@ h3 {
     box-sizing:border-box;
 }
 
+.consultant.zoom.img {
+    transition: 0.3s;
+    border-radius: 16px;
+}
+
+.contact-about-input-title {
+    color: white;
+    font-size: 46px;
+}
+.contact-about-form{
+    padding-top:0px;
+}
+.contact-about-form::before{
+    box-sizing:border-box
+}
+.contact-about-input-fild {
+    border-radius: 10px;
+    padding: 5px 10px;
+   
+}
+
+.contact-about-input-taxtarea {
+    height: 40px !important;
+    resize: none;
+    border-radius: 10px;
+    padding:10px;
+    margin-top
+}
 
 
 /*Service Phase:2) About agro farm division css*/
@@ -1594,6 +1622,48 @@ h3 {
 
 .realState-top-slider-5 {
     background-image: url(../img/service/realStateConstruction05.jpg)
+}
+
+/*## Sports Surfece and Supply*/
+.sports-supply-construction-01 {
+    background-image: url(../img/service/sports-slider-01.jpg)
+}
+.sports-supply-construction-02 {
+    background-image: url(../img/service/sports-slider-02.jpg)
+}
+.sports-supply-construction-03 {
+    background-image: url(../img/service/sports-slider-03.jpg)
+}
+.sports-supply-construction-04 {
+    background-image: url(../img/service/sports-slider-04.jpg)
+}
+.sports-supply-construction-05 {
+    background-image: url(../img/service/sports-slider-05.jpg)
+}
+.sports-supply-construction-06 {
+    background-image: url(../img/service/sports-slider-06.jpg)
+}
+/*## Defense and military */
+.defense-top-slider-01 {
+    background-image: url(../img/service/military-equipent-supply-01.jpg)
+}
+.defense-top-slider-02 {
+    background-image: url(../img/service/military-equipent-supply-02.jpg)
+}
+.defense-top-slider-03 {
+    background-image: url(../img/service/military-equipent-supply-03.jpeg)
+}
+.defense-top-slider-04 {
+    background-image: url(../img/service/military-equipent-supply-04.jpg)
+}
+.defense-top-slider-05 {
+    background-image: url(../img/service/military-equipent-supply-05.jpg)
+}
+.defense-top-slider-06 {
+    background-image: url(../img/service/military-equipent-supply-06.jpg)
+}
+.defense-top-slider-07 {
+    background-image: url(../img/service/military-equipent-supply-07.jpeg)
 }
 
 /*### Service ***Real estate and constraction */
