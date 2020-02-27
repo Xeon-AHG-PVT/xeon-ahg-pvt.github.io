@@ -104,8 +104,8 @@
                                                     <li><a href="defense-security-division.html">Defense and Security Division </a></li>
                                                     <li><a href="human-resources-outsourcing-division.html">Human Resources and Outsourcing Division</a></li>
                                                     <li><a href="supply-material-equipment-division.html">Supply of Material and Equipment Division</a></li>
-                                                    <li><a href="services.html">Power, Alternative Energy, Environment and Waste Management Division</a></li>
-                                                    <li><a href="services.html">Travel and Tourism Division</a></li>
+                                                    <li><a href="power-energy-waste-management.html">Power, Alternative Energy, Environment and Waste Management Division</a></li>
+                                                    <li><a href="travel-turisom.html">Travel and Tourism Division</a></li>
                                                     <li><a href="ict-division.html">ICT Division</a></li>
                                                 </ul>
                                             </li>
@@ -139,7 +139,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="bradcam_text">
-                        <h3>Associate Partners</h3>
+                        <h3 class="animation">Associate Partners</h3>
                     </div>
                 </div>
             </div>
@@ -490,6 +490,28 @@
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <script>
+        var textWrapper = document.querySelector('.animation');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+        anime.timeline({ loop: true })
+            .add({
+                targets: '.animation .letter',
+                opacity: [0, 1],
+                easing: "easeInOutQuad",
+                duration: 2250,
+                delay: (el, i) => 150 * (i + 1)
+            }).add({
+                targets: '.animation',
+                opacity: 0,
+                duration: 1000,
+                easing: "easeOutExpo",
+                delay: 1000
+            });
+    </script>
 </body>
 
 </html>
