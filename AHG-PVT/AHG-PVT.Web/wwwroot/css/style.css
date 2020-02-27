@@ -1797,16 +1797,16 @@ h3 {
 
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/banner_3.png);
+  background-image: url(../img/banner/company.png);
 }
 
 
 /* line 8, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_area .single_slider {
-  height: 750px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 @media (max-width: 767px) {
@@ -1831,7 +1831,7 @@ h3 {
 
 /* line 26, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 span {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 @media (max-width: 767px) {
@@ -2494,10 +2494,10 @@ h3 {
 
 /* line 2, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
 #accordion button {
-  font-size: 16px;
-  color: #0f2137;
-  font-weight: 500;
-  font-weight: 500;
+    font-size: 16px;
+    color: #0f2137;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
 
 @media (max-width: 767px) {
