@@ -58,19 +58,21 @@ a:focus {
 }
 
 /* line 29, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
-a:focus,
-a:hover,
-.portfolio-cat a:hover,
-.footer -menu li a:hover {
-  text-decoration: none;
-  color: #1F1F1F;
-}
+    a:focus,
+    a:hover,
+    .portfolio-cat a:hover,
+    .footer -menu li a:hover {
+        text-decoration: none;
+        color: #ffffff;
+    }
 
 /* line 36, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
 a,
 button {
-  color: #1F1F1F;
-  outline: medium none;
+    color: #ffffff;
+    outline: medium none;
+    font-family: "Poppins", sans-serif;
+    font-weight:500;
 }
 
 /* line 41, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
@@ -247,8 +249,8 @@ h3 {
 
 /* line 175, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
 .overlay_03 {
-  position: relative;
-  z-index: 0;
+    position: relative;
+    z-index: 0;
 }
 
 /* line 179, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
@@ -314,9 +316,9 @@ h3 {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.1s ease 0s;
+  -o-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
   width: 50px;
   color: #707070;
   background-color: transparent;
@@ -423,32 +425,32 @@ h3 {
 
 /* line 29, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_btn.scss */
 .boxed-btn3 {
-  background: -moz-linear-gradient(top, #0181f5 0%, rgba(93, 178, 255, 0.99) 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #0181f5 0%, rgba(93, 178, 255, 0.99) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #0181f5 0%, rgba(93, 178, 255, 0.99) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0181f5', endColorstr='#fc5db2ff',GradientType=0 );
-  /* IE6-9 */
-  color: #fff;
-  display: inline-block;
-  padding: 19px 41px;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  border: 0;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  text-align: center;
-  color: #fff !important;
-  text-transform: capitalize;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  cursor: pointer;
+    background: -moz-linear-gradient(top, #0181f5 0%, rgba(93, 178, 255, 0.99) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #0181f5 0%, rgba(93, 178, 255, 0.99) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #0181f5 0%, rgba(93, 178, 255, 0.99) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0181f5', endColorstr='#fc5db2ff',GradientType=0 );
+    /* IE6-9 */
+    color: #fff;
+    display: inline-block;
+    padding: 19px 41px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border: 0;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 /* line 52, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_btn.scss */
@@ -909,23 +911,29 @@ h3 {
     width: 70px;
   }
 }
-
+.header-logo{
+    font-size:16px;
+}
+.header-logo img{
+    width:50px;
+    
+}
 /* line 71, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -webkit-justify-content: flex-end;
-  -moz-justify-content: flex-end;
-  -ms-justify-content: flex-end;
-  justify-content: flex-end;
-  -ms-flex-pack: flex-end;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    -ms-justify-content: flex-end;
+    justify-content: flex-end;
+    -ms-flex-pack: flex-end;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -985,25 +993,25 @@ h3 {
 
 /* line 113, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #0181f5;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0181f5', endColorstr='#5db2ff',GradientType=1 );
-  /* IE6-9 */
-  padding: 13px 26px;
-  font-size: 14px;
-  font-weight: 400;
-  border: 1px solid transparent;
-  color: #fff;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
+    background: #0181f5;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0181f5', endColorstr='#5db2ff',GradientType=1 );
+    /* IE6-9 */
+    padding: 13px 26px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    color: #fff;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1042,17 +1050,18 @@ h3 {
 }
 
 /* line 156, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
-.header-area .main-header-area .main-menu ul li a {
-  color: #fff;
-  font-size: 15px;
-  text-transform: capitalize;
-  font-weight: 500;
-  display: inline-block;
-  padding: 0px 0px 0px 0px;
-  font-family: "Poppins", sans-serif;
-  position: relative;
-  text-transform: capitalize;
-}
+    .header-area .main-header-area .main-menu ul li a {
+        color: #fff;
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: 500;
+        display: inline-block;
+        padding: 0px 0px 0px 0px;
+        font-family: "Poppins", sans-serif;
+        position: relative;
+        text-transform: capitalize;
+        margin-right:20px;
+    }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 156, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
@@ -1086,22 +1095,25 @@ h3 {
     display: none !important;
   }
 }
-
+.profile_logo img{
+    height:200px;
+    width:200px;
+}
 /* line 184, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a::before {
-  position: absolute;
-  content: "";
-  background: #5DB2FF;
-  width: 100%;
-  height: 3px;
-  bottom: -33px;
-  left: 0;
-  opacity: 0;
-  transform: scaleX(0);
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+    position: absolute;
+    content: "";
+    background: #5DB2FF;
+    width: 100%;
+    height: 3px;
+    bottom: -33px;
+    left: 0;
+    opacity: 0;
+    transform: scaleX(0);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 /* line 196, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
@@ -1118,20 +1130,20 @@ h3 {
 
 /* line 210, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu {
-  position: absolute;
-  left: 0;
-  top: 160%;
-  background: #fff;
-  width: 200px;
-  z-index: 2;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
-  opacity: 0;
-  visibility: hidden;
-  text-align: left;
-  -webkit-transition: 0.6s;
-  -moz-transition: 0.6s;
-  -o-transition: 0.6s;
-  transition: 0.6s;
+    position: absolute;
+    left: 0;
+    top: 160%;
+    background: #e9ecef;
+    width: 380px;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
+    opacity: 0;
+    visibility: hidden;
+    text-align: left;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
 }
 
 /* line 222, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
@@ -1181,19 +1193,19 @@ h3 {
 
 /* line 254, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky {
-  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  width: 100%;
-  top: -70px;
-  left: 0;
-  right: 0;
-  z-index: 990;
-  transform: translateY(70px);
-  transition: transform 500ms ease, background 500ms ease;
-  -webkit-transition: transform 500ms ease, background 500ms ease;
-  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  background: rgba(255, 255, 255, 0.96);
-  background: #2C2C2C;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    z-index: 990;
+    transform: translateY(70px);
+    transition: transform 500ms ease, background 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    /*background: rgba(255, 255, 255, 0.96);*/
+    background: #2C2C2C;
 }
 
 @media (max-width: 767px) {
@@ -1312,6 +1324,492 @@ h3 {
   justify-content: flex-end;
 }
 
+
+
+
+
+/* Services Css */
+/*line-147*, ../../agrecultur-farm/agro-farm-slide*/
+.agro-farm-top-slider-1 {
+    background-image: url(../img/service/agroFarmSlider-1.jpg)
+}
+.agro-farm-top-slider-2 {
+    background-image: url(../img/service/agroFarmSlider-2.jpeg)
+}
+.agro-farm-top-slider-3 {
+    background-image: url(../img/service/agroFarmSlider-3.jpeg)
+}
+.agro-farm-top-slider-4 {
+    background-image: url(../img/service/agroFarmSlider-4.jpeg)
+}
+/* line 227 service promo section*/
+.servicePromoSection {
+    padding: 0 0 50px 0;
+    background-size: cover;
+    background-position: center center;
+}
+.promoSwipTop {
+    position: relative;
+    margin-top: -45px;
+    z-index: 1;
+    padding:0px;
+    background-color:white;
+    border-radius: 5px;
+}
+.promoSwipTopArticel {
+    text-align: center;
+    background: url(../img/);
+    border: 10px solid #f3f7f8;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 75px 185px;
+    border-radius: 5px;
+}
+.promoSwipTopArticel-02 {
+    text-align: center;
+    background: url(../img/);
+    border: 10px solid #f3f7f8;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 75px 123px;
+    border-radius: 5px;
+}
+
+.promoSwipTopTitle {
+    letter-spacing: .05em;
+    text-transform: none;
+    font-family: "Kalam", cursive;
+    color: #629bd0;
+    text-align:center;
+}
+/*line 232*/
+.promoSwipTopText {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.a:focus {
+    color: #629bd0;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.promo-btn {
+    margin-top: 20px;
+    color: #151515;
+    background-color: #e8f063;
+    border-color: #e8f063;
+    padding: 11px 5px;
+    border-radius: 50%;
+}
+.promo-btn-icon {
+    font-size: 22px;
+    min-width: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+}
+    .promo-btn-icon span {
+        font-size: inherit;
+        vertical-align: middle;
+        display: inline-block;
+        font: normal normal normal 24px/1 "Material Design Icons";
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        transform: translate(0,0);
+    }
+.promo-btn.promo-btn-icon ::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 110%;
+    padding-bottom: 110%;
+    border-radius: 50%;
+    transform: translate3d(-50%,-50%,0) scale(1);
+    transition: inherit;
+    pointer-events: none;
+    z-index: -1;
+    box-sizing:border-box;
+}
+
+.consultant.zoom.img {
+    transition: 0.3s;
+    border-radius: 16px;
+}
+
+.contact-about-input-title {
+    color: white;
+    font-size: 46px;
+}
+.contact-about-form{
+    padding-top:0px;
+}
+.contact-about-form::before{
+    box-sizing:border-box
+}
+.contact-about-input-fild {
+    border-radius: 10px;
+    padding: 5px 10px;
+   
+}
+
+.contact-about-input-taxtarea {
+    height: 40px !important;
+    resize: none;
+    border-radius: 10px;
+    padding:10px;
+    margin-top
+}
+
+
+/*Service Phase:2) About agro farm division css*/
+/*line 260*/
+
+/*line 254*/
+
+.aboutAgroTitle {
+    font-size: 46px;
+    font-weight: 300;
+    line-height: 76px;
+    color: #001D38;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 15px;
+    
+}
+
+.slideDown {
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;
+    animation-duration: 5s;
+    -webkit-animation-duration: 5s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    visibility: visible !important;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    50% {
+        transform: translateY(8%);
+    }
+
+    65% {
+        transform: translateY(-4%);
+    }
+
+    80% {
+        transform: translateY(4%);
+    }
+
+    95% {
+        transform: translateY(-2%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slideDown {
+    0% {
+        -webkit-transform: translateY(-100%);
+    }
+
+    50% {
+        -webkit-transform: translateY(8%);
+    }
+
+    65% {
+        -webkit-transform: translateY(-4%);
+    }
+
+    80% {
+        -webkit-transform: translateY(4%);
+    }
+
+    95% {
+        -webkit-transform: translateY(-2%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
+
+.cardAnimation {
+    padding: 30px;
+    border: 1px solid #E8E8E8;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.4s;
+    margin-bottom: 30px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.cardAnimation :hover {
+        width: 300px;
+        height: 300px;
+        transform: rotate(180deg);
+}
+
+.aboutUscardImg1 {
+    width: 230px;
+    transform: none;
+    will-change: transform;
+    transition: all .1s ease;
+}
+
+
+
+
+/*#dredging Division#*/
+.dredging-div-slider-01 {
+    background-image: url(../img/service/dredging-slide-01.jpg)
+}
+.dredging-div-slider-02 {
+    background-image: url(../img/service/dredging-slide-02.jpg)
+}
+.dredging-div-slider-03 {
+    background-image: url(../img/service/dredging-slide-03.jpg)
+}
+.dredging-div-slider-04 {
+    background-image: url(../img/service/dredging-slide-04.jpg)
+}
+.dredging-div-slider-05 {
+    background-image: url(../img/service/dredging-slide-05.jpg)
+}
+
+/* Garments Division */
+/* line */
+.garments-top-slider-01 {
+    background-image: url(../img/service/garmants-slide-01.jpeg)
+}
+.garments-top-slider-02 {
+    background-image: url(../img/service/garmants-slide-02.jpg)
+}
+.garments-top-slider-03 {
+    background-image: url(../img/service/garmants-slide-03.jpg)
+}
+.garments-top-slider-04 {
+    background-image: url(../img/service/garmants-slide-04.jpeg)
+}
+.garments-top-slider-05 {
+    background-image: url(../img/service/garmants-slide-05.jpg)
+}
+.garments-top-slider-06 {
+    background-image: url(../img/service/garmants-slide-06.jpg)
+}
+
+
+
+/*### Service ***Real estate and constraction */
+/* line 147 */
+.realState-top-slider-1 {
+    background-image: url(../img/service/realStateConstruction01.jpg)
+}
+.realState-top-slider-2 {
+    background-image: url(../img/service/realStateConstruction02.jpg)
+}
+.realState-top-slider-3 {
+    background-image: url(../img/service/realStateConstruction03.jpg)
+}
+.realState-top-slider-4 {
+    background-image: url(../img/service/realStateConstruction04.jpeg)
+}
+
+.realState-top-slider-5 {
+    background-image: url(../img/service/realStateConstruction05.jpg)
+}
+
+/*## Sports Surfece and Supply*/
+.sports-supply-construction-01 {
+    background-image: url(../img/service/sports-slider-01.jpg)
+}
+.sports-supply-construction-02 {
+    background-image: url(../img/service/sports-slider-02.jpg)
+}
+.sports-supply-construction-03 {
+    background-image: url(../img/service/sports-slider-03.jpg)
+}
+.sports-supply-construction-04 {
+    background-image: url(../img/service/sports-slider-04.jpg)
+}
+.sports-supply-construction-05 {
+    background-image: url(../img/service/sports-slider-05.jpg)
+}
+.sports-supply-construction-06 {
+    background-image: url(../img/service/sports-slider-06.jpg)
+}
+/*## Defense and military */
+.defense-top-slider-01 {
+    background-image: url(../img/service/military-equipent-supply-01.jpg)
+}
+.defense-top-slider-02 {
+    background-image: url(../img/service/military-equipent-supply-02.jpg)
+}
+.defense-top-slider-03 {
+    background-image: url(../img/service/military-equipent-supply-03.jpeg)
+}
+.defense-top-slider-04 {
+    background-image: url(../img/service/military-equipent-supply-04.jpg)
+}
+.defense-top-slider-05 {
+    background-image: url(../img/service/military-equipent-supply-05.jpg)
+}
+.defense-top-slider-06 {
+    background-image: url(../img/service/military-equipent-supply-06.jpg)
+}
+.defense-top-slider-07 {
+    background-image: url(../img/service/military-equipent-supply-07.jpeg)
+}
+
+/*## Human Resourch Division*/
+.hr-slider-01{
+    background-image:url(../img/service/HR-slider-01.png)
+}
+.hr-slider-02 {
+    background-image: url(../img/service/HR-slider-02.jpg)
+}
+.hr-slider-03 {
+    background-image: url(../img/service/HR-slider-03.png)
+}
+.hr-slider-04 {
+    background-image: url(../img/service/HR-slider-04.jpg)
+}
+.hr-slider-05 {
+    background-image: url(../img/service/HR-slider-05.jpg)
+}
+.hr-slider-06 {
+    background-image: url(../img/service/HR-slider-06.jpg)
+}
+
+/*### Service ***Real estate and constraction */
+/* line 147 */
+.supply-material-equipment-slide-1 {
+    background-image: url(../img/service/supplyMateria-slid-01.jpeg)
+}
+.supply-material-equipment-slide-2 {
+    background-image: url(../img/service/supplyMateria-slid-02.jpeg)
+}
+.supply-material-equipment-slide-3 {
+    background-image: url(../img/service/supplyMateria-slid-03.jpeg)
+}
+.supply-material-equipment-slide-4 {
+    background-image: url(../img/service/supplyMateria-slid-04.jpeg)
+}
+.supply-material-equipment-slide-5 {
+    background-image: url(../img/service/supplyMateria-slid-05.jpeg)
+}
+
+/*## Ict -Division*/
+/*line*/
+.ict-division-slide-01 {
+    background-image: url(../img/service/ict-slide-01.jpeg)
+}
+.ict-division-slide-02 {
+    background-image: url(../img/service/ict-slide-02.jpg)
+}
+.ict-division-slide-03 {
+    background-image: url(../img/service/ict-slide-03.jpeg)
+}
+.ict-division-slide-04 {
+    background-image: url(../img/service/ict-slide-04.jpeg)
+}
+.ict-division-slide-05 {
+    background-image: url(../img/service/ict-slide-05.jpg)
+}
+.ict-division-slide-06 {
+    background-image: url(../img/service/ict-slide-06.jpg)
+}
+
+
+.story-zoom {
+    display: block;
+    overflow: hidden;
+}
+
+.story-zoom-img {
+    width: 100%;
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+}
+
+    .story-zoom:hover img {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+
+/*End Ict Division***/
+
+/*## Power energy Division*/
+/* line */
+.power-energy-slide-01 {
+    background-image: url(../img/service/power-energy-slide-01.jpg)
+}
+.power-energy-slide-02 {
+    background-image: url(../img/service/power-energy-slide-02.jpg)
+}
+.power-energy-slide-03 {
+    background-image: url(../img/service/power-energy-slide-03.jpg)
+}
+.power-energy-slide-04 {
+    background-image: url(../img/service/power-energy-slide-004.jpg)
+}
+.power-energy-slide-05 {
+    background-image: url(../img/service/power-energy-slide-05.jpg)
+}
+.power-energy-slide-06 {
+    background-image: url(../img/service/power-energy-slide-06.jpg)
+}
+
+
+/*# Travel and tourisom #*/
+/* line 143**/
+.travel-tourisom-slide-01 {
+    background-image: url(../img/service/travel-tourisom-slid-01.jpg)
+}
+.travel-tourisom-slide-02 {
+    background-image: url(../img/service/travel-tourisom-slid-02.jpg)
+}
+.travel-tourisom-slide-03 {
+    background-image: url(../img/service/travel-tourisom-slid-03.jpg)
+}
+.travel-tourisom-slide-04 {
+    background-image: url(../img/service/travel-tourisom-slid-04.jpg)
+}
+.travel-tourisom-slide-05 {
+    background-image: url(../img/service/travel-tourisom-slid-05.jpg)
+}
+.travel-tourisom-slide-06 {
+    background-image: url(../img/service/travel-tourisom-slid-06.jpg)
+}
+
+
+
+
+
+
+
+
+
+
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_bg_1 {
   background-image: url(../img/banner/banner.png);
@@ -1319,15 +1817,16 @@ h3 {
 
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/banner_2.png);
+  background-image: url(../img/banner/company.png);
 }
+
 
 /* line 8, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_area .single_slider {
-  height: 750px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 @media (max-width: 767px) {
@@ -1339,19 +1838,20 @@ h3 {
 
 /* line 17, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
-  font-family: "Poppins", sans-serif;
-  font-size: 60px;
-  text-transform: capitalize;
-  letter-spacing: 2px;
-  font-weight: 300;
-  line-height: 76px;
-  margin-bottom: 15px;
-  color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 76px;
+    margin-bottom: 15px;
+    color: #fff;
+    
 }
 
 /* line 26, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 span {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 @media (max-width: 767px) {
@@ -1475,12 +1975,28 @@ h3 {
   width: 100%;
 }
 
+.directort_thumb img {
+    padding: 10px;
+    height: 305px;
+    border-radius: 25px;
+}
+.company_brief{
+    font-size:18px;
+}
+
+.partners{
+    margin-bottom:30px;
+}
+.partners p {
+    font-size:15px;
+    color:black;
+}
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
 .counter_area {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  padding: 135px 0 105px 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 135px 0 105px 0;
 }
 
 /* line 6, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
@@ -1510,7 +2026,7 @@ h3 {
 
 /* line 27, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
 .counter_bg_1 {
-  background-image: url(../img/about/counter.png);
+  background-image: url(../img/about/about1.jpg);
 }
 
 /* line 31, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
@@ -1892,8 +2408,9 @@ h3 {
 
 /* line 47, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
 .testimonial_area .owl-carousel .owl-item img {
-  display: inline-block;
-  width: auto;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
 }
 
 /* line 51, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
@@ -1997,10 +2514,10 @@ h3 {
 
 /* line 2, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
 #accordion button {
-  font-size: 16px;
-  color: #0f2137;
-  font-weight: 500;
-  font-weight: 500;
+    font-size: 16px;
+    color: #0f2137;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
 
 @media (max-width: 767px) {
@@ -2145,16 +2662,23 @@ h3 {
 }
 
 /* line 7, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
-.accordion_area .accordion_thumb img {
-  width: 100%;
-}
+    .accordion_area .accordion_thumb img {
+        width: 100%;  
+    }
 
+    .accordion_area .director_thumb img {
+        width: 60%;
+        border-radius: 50%;
+        float: left;
+        height: 200px;
+    }
 /* line 12, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
 .accordion_area .faq_ask h3 {
   font-size: 46px;
   font-weight: 300;
   color: #001D38;
   margin-bottom: 57px;
+  text-align:center;
 }
 
 @media (max-width: 767px) {
@@ -2240,8 +2764,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_case_details.scss */
 .case_details_area {
-  padding-top: 100px;
-  margin-top: 138px;
+  padding-top: 50px;
+  margin-top: 50px;
 }
 
 @media (max-width: 767px) {
@@ -3231,11 +3755,11 @@ h3 {
 
 /* line 31, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .footer_logo {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
-  margin-bottom: 40px;
+  margin-bottom: 38px;
 }
 
 @media (max-width: 767px) {
@@ -3305,7 +3829,7 @@ h3 {
 .footer .footer_top .footer_widget ul li {
   color: #919191;
   font-size: 13px;
-  line-height: 42px;
+  line-height: 34px;
 }
 
 /* line 90, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
@@ -3449,9 +3973,14 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam.png);
+    background-image: url(../img/banner/bradcam.png);
 }
-
+.bradcam_bg_2 {
+  background-image: url(../img/banner/company.png);
+}
+.bradcam_bg_3 {
+    background-image: url(../img/banner/associate-partner.png);
+}
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;
@@ -3470,7 +3999,7 @@ h3 {
   width: 100%;
   height: 100%;
   background: #001D38;
-  opacity: .4;
+  opacity: .5;
   z-index: -1;
   content: '';
 }
@@ -3856,6 +4385,7 @@ h3 {
   margin-bottom: 30px;
 }
 
+
 /* line 13, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_service.scss */
 .service_area .single_service .service_icon {
   line-height: 94px;
@@ -3911,34 +4441,34 @@ h3 {
 }
 
 /* line 51, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_service.scss */
-.service_area .col-xl-4:nth-child(2) .single_service .service_icon {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00d363+0,37ef8d+100 */
-  background: #00d363;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #00d363 0%, #37ef8d 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #00d363 0%, #37ef8d 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #00d363 0%, #37ef8d 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d363', endColorstr='#37ef8d',GradientType=0 );
-  /* IE6-9 */
-}
+    .service_area .col-xl-4:nth-child(2) .single_service .service_icon {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00d363+0,37ef8d+100 */
+        background: #00d363;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #00d363 0%, #37ef8d 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #00d363 0%, #37ef8d 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #0181f5 0%, #5db2ff 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d363', endColorstr='#37ef8d',GradientType=0 );
+        /* IE6-9 */
+    }
 
 /* line 60, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_service.scss */
-.service_area .col-xl-4:nth-child(3) .single_service .service_icon {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fd8e5e+0,fd8e5e+100 */
-  background: #fd8e5e;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #fd8e5e 0%, #fd8e5e 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #fd8e5e 0%, #fd8e5e 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #fd8e5e 0%, #fd8e5e 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd8e5e', endColorstr='#fd8e5e',GradientType=0 );
-  /* IE6-9 */
-}
+    .service_area .col-xl-4:nth-child(3) .single_service .service_icon {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fd8e5e+0,fd8e5e+100 */
+        background: #fd8e5e;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #fd8e5e 0%, #fd8e5e 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #fd8e5e 0%, #fd8e5e 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #0181f5 0%, #5db2ff 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd8e5e', endColorstr='#fd8e5e',GradientType=0 );
+        /* IE6-9 */
+    }
 
 /* line 69, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_service.scss */
 .service_area .col-xl-4:nth-child(4) .single_service .service_icon {
@@ -4367,7 +4897,7 @@ sup,
 sub,
 u,
 del {
-  color: #ff5e13;
+    color: #000000;
 }
 
 /* line 93, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_elements.scss */
