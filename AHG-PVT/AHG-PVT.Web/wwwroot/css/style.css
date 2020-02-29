@@ -1812,8 +1812,79 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+    background-image: url(../img/banner/banner.png);
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-animation: zoomin 10s ease-in infinite;
+    animation: zoomin 10s ease-in infinite;
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+    /*Zoom Out*/
+    /*-webkit-animation: zoomout 10s ease-in infinite;
+    animation: zoomout 10s ease-in infinite;
+    transition: all .5s ease-in-out;
+    overflow: hidden;*/
 }
+/* Zoom in Keyframes */
+@-webkit-keyframes zoomin {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes zoomin {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+/*End of Zoom in Keyframes */
+
+/* Zoom out Keyframes */
+@-webkit-keyframes zoomout {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.67);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes zoomout {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.67);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+/*End of Zoom out Keyframes */
+
 
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_bg_2 {
@@ -1827,7 +1898,9 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+
 }
+
 
 @media (max-width: 767px) {
   /* line 8, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
