@@ -1494,6 +1494,11 @@ h3 {
     -webkit-animation-timing-function: ease;
     visibility: visible !important;
 }
+.about-border-buttom {
+    display: inline-block;
+    border: 3px solid;
+    border-width: 0 0 3px 0;
+}
 
 @keyframes slideDown {
     0% {
@@ -1610,14 +1615,52 @@ h3 {
 .garments-top-slider-06 {
     background-image: url(../img/service/garmants-slide-06.jpg)
 }
-
-
-
-/*### Service ***Real estate and constraction */
-/* line 147 */
-.realState-top-slider-1 {
-    background-image: url(../img/service/realStateConstruction01.jpg)
+.ml5 {
+    position: relative;
+    font-weight: 600;
+    font-size: 2em;
+    color: #402d2d;
 }
+
+    .ml5 .text-wrapper {
+        position: relative;
+        display: inline-block;
+        padding-top: 0.1em;
+        padding-right: 0.05em;
+        padding-bottom: 0.15em;
+        line-height: 1em;
+    }
+
+    .ml5 .line {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        height: 3px;
+        width: 100%;
+        background-color: #402d2d;
+        transform-origin: 0.5 0;
+    }
+
+    .ml5 .ampersand {
+        font-family: Baskerville, "EB Garamond", serif;
+        font-style: italic;
+        font-weight: 400;
+        width: 1em;
+        margin-right: -0.1em;
+        margin-left: -0.1em;
+    }
+
+    .ml5 .letters {
+        display: inline-block;
+        opacity: 0;
+    }
+    /*### Service ***Real estate and constraction */
+    /* line 147 */
+    .realState-top-slider-1 {
+        background-image: url(../img/service/realStateConstruction01.jpg)
+    }
 .realState-top-slider-2 {
     background-image: url(../img/service/realStateConstruction02.jpg)
 }
