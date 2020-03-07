@@ -2563,7 +2563,12 @@ h3 {
   color: #fff;
   margin-bottom: 0;
 }
-
+.Information_area .info_text h4 {
+    font-size: 47px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 0;
+}
 @media (max-width: 767px) {
   /* line 71, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
   .Information_area .info_text h3 {
@@ -4533,7 +4538,13 @@ h3 {
   margin-top: 35px;
   margin-bottom: 23px;
 }
-
+    .service_area .single_service h4 {
+        font-size: 20px;
+        color: #001D38;
+        font-weight: 300;
+        margin-top: 35px;
+        margin-bottom: 23px;
+    }
 /* line 34, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_service.scss */
 .service_area .single_service p {
   font-size: 15px;
